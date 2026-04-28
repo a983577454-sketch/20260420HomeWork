@@ -2,20 +2,20 @@
 {
     internal class Program
     {
-        static void Main()
+        static void Main(string[]args)
         {
             Console.Write("請輸入一個整數：");
 
-            int number = int.Parse(Console.ReadLine());
+            int num = int.Parse(Console.ReadLine());
             {
 
-                if (number % 2 == 0)
+                if (num % 2 == 0)
                 {
-                    Console.WriteLine($"{number} 是偶數");
+                    Console.WriteLine($"{num} 是偶數");
                 }
                 else
                 {
-                    Console.WriteLine($"{number} 是奇數");
+                    Console.WriteLine($"{num} 是奇數");
                 }
             }
             
