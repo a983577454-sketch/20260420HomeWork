@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Number246/Number246.csproj" />
+  <Project Path="Number810/Number810.csproj" />
+  <Project Path="O1/O1.csproj" />
+  <Project Path="O2/O2.csproj" />
+  <Project Path="Year1/Year1.csproj" />
+  <Project Path="Year2/Year2.csproj" />
+  <Project Path="Year3/Year3.csproj" />
+  <Project Path="Year4/Year4.csproj" />
+</Solution>
