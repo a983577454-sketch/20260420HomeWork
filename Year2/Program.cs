@@ -9,26 +9,26 @@
             {
                 DateTime date = new DateTime(year, 1, 1);
 
-                int satCount = 0;
-                int sunCount = 0;
+                int sat = 0;
+                int sun = 0;
 
                 while (date.Year == year)
                 {
 
                     if (date.DayOfWeek == DayOfWeek.Saturday)
                     {
-                        satCount++;
+                        sat++;
                     }
                     else if (date.DayOfWeek == DayOfWeek.Sunday)
                     {
-                        sunCount++;
+                        sun++;
                     }
                     date = date.AddDays(1);
                 }
 
                 Console.WriteLine($"{year} 年共有：");
-                Console.WriteLine($"星期六: {satCount} 天");
-                Console.WriteLine($"星期日: {sunCount} 天");
+                Console.WriteLine($"星期六: {sat} 天");
+                Console.WriteLine($"星期日: {sun} 天");
             }
             }
     }
